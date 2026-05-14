@@ -24,12 +24,13 @@ Detection Results for Testing / Integration
 
 ## Main Design Components
 
-Component	Description
-Dataset Collection	Image and video data were gathered for IGVC-related objects.
-Dataset Labeling	Objects such as barrels, potholes, and signs were labeled for YOLOv8 training.
-YOLOv8 Training	A YOLOv8 model was trained using the labeled dataset.
-Model Testing	The trained model was tested on recorded video data to evaluate detection performance.
-Detection Output	The model outputs bounding boxes, class labels, and confidence scores for detected objects.
+| Component | Description |
+|---|---|
+| Dataset Collection | Image and video data were gathered for IGVC-related objects. |
+| Dataset Labeling | Objects such as barrels, potholes, and signs were labeled for YOLOv8 training. |
+| YOLOv8 Training | A YOLOv8 model was trained using the labeled dataset. |
+| Model Testing | The trained model was tested on recorded video data to evaluate detection performance. |
+| Detection Output | The model outputs bounding boxes, class labels, and confidence scores for detected objects. |
 
 ## Object Detection Model
 
@@ -37,15 +38,15 @@ The perception system uses a YOLOv8-based object detection model. YOLOv8 was sel
 
 The model was trained to detect:
 
-Barrels
-Potholes
-Signs
+- Barrels
+- Potholes
+- Signs
 
 For each detected object, the model outputs:
 
-Object class
-Confidence score
-Bounding box coordinates
+- Object class
+- Confidence score
+- Bounding box coordinates
 
 ## Open-Closed Principle Discussion
 

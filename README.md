@@ -39,6 +39,9 @@ CS4910_Final_Submission/
 |   |-- export_model.py
 |   `-- benchmark_models.py
 |
+|-- models/
+|   `-- trained model files (if included)
+|
 |-- tests/
 |   |-- metamorphic_tests/
 |   `-- mutation_tests/
