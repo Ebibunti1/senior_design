@@ -1,6 +1,5 @@
 # CS 4910 Final Submission
 
-**Student:** Ebisa Bunti  
 **Course:** CS 4910 Senior Design  
 **Project:** IGVC Object Detection / Perception  
 
